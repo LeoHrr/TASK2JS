@@ -1,0 +1,139 @@
+.logo {
+    width: 150px;
+  } 
+  @media(min-width: 991px){
+    .logo{
+        margin-right:460px ;
+    }
+}
+  @media(min-width: 1200px){
+    .logo{
+        margin-right: 660px;
+    }
+  }
+  @media(min-width: 1700px){
+    .logo{
+        margin-right: 1000px;
+    }
+  }
+.border{
+    margin: 2px;
+    padding: 5px;
+}
+.cat-search{
+  position: relative;
+  top: 130px;
+  z-index: 1; 
+}
+
+  .search-btn{
+    background-color: #d30562;
+    color: white;
+  }
+
+  .carouselItem {
+    text-decoration: none;
+    color: gray;
+  }
+  .carouselItem:hover {
+
+    color: rgb(192, 0, 96);
+  }
+  .amazeCheck {
+    background-color: white;
+  }
+  .amazeCheck:checked {
+    background-color: rgb(192, 0, 96);
+    border-color: white;
+  }
+  .category {
+    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
+  }
+  @media screen and (max-width: 480px) {
+    .category {
+      display: flex;
+      flex-flow: row nowrap;
+      overflow-x: scroll;
+      margin-bottom: 1rem;
+    }
+  }
+    
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-size: 100%, 100%;
+    background-image: none;
+    height: 100px;
+    width: 100px;
+  }
+
+  .carousel-control-next-icon:after {
+    content: ">";
+    font-size: 60px;
+    position: absolute;
+    bottom: 5px;
+    color: grey;
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: "<";
+    font-size: 60px;
+    position: absolute;
+    bottom: 5px;
+    color: grey;
+  }
+  .button-pre, .button-next{
+    height: 80px;
+    width: 80px;
+  }
+
+ /*  .category{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  } */
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  margin-top: 70px;
+}
+@media screen and (max-width: 750px){
+  .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+}
+.img-card{
+  height: 180px;
+  padding: 10px;
+}
+.card-img-top{
+  height: 150px;
+}
+.price{
+  display: inline;
+}
+.btn-mas {
+  background-color: rgb(192, 0, 96);
+  color: white;
+  position: relative;
+  left: 40px;
+}
+.icon-red{
+  color: gray;
+  margin-right: 5px;
+}
+.icon-red:hover{
+  color: rgb(192, 0, 96);
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}

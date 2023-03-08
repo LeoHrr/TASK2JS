@@ -22,7 +22,7 @@
 }
 .cat-search{
   position: relative;
-  top: 130px;
+  top: 80px;
   z-index: 1; 
 }
 
@@ -47,7 +47,6 @@
     border-color: white;
   }
   .category {
-    display: inline-flex;
     display: flex;
     justify-content: space-around;
   }
@@ -60,7 +59,7 @@
     }
   }
     
-  .carousel-control-prev-icon,
+/*   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     background-size: 100%, 100%;
     background-image: none;
@@ -87,7 +86,7 @@
   .button-pre, .button-next{
     height: 80px;
     width: 80px;
-  }
+  } */
 
   /* cards */
 

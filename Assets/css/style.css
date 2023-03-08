@@ -39,10 +39,10 @@
 
     color: rgb(192, 0, 96);
   }
-  .amazeCheck {
+  .check {
     background-color: white;
   }
-  .amazeCheck:checked {
+  .check:checked {
     background-color: rgb(192, 0, 96);
     border-color: white;
   }
@@ -81,6 +81,7 @@
     font-size: 60px;
     position: absolute;
     bottom: 5px;
+    right: 30px;
     color: grey;
   }
   .button-pre, .button-next{
@@ -88,11 +89,8 @@
     width: 80px;
   }
 
- /*  .category{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  } */
+  /* cards */
+
 .cards{
   display: flex;
   flex-direction: row;
@@ -123,6 +121,9 @@
   position: relative;
   left: 40px;
 }
+
+/* fin cards */
+
 .icon-red{
   color: gray;
   margin-right: 5px;
@@ -131,9 +132,94 @@
   color: rgb(192, 0, 96);
 }
 
+/* form */
 .form{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
+}
+.input-name, .input-email, .input-text{
+  width: 500px;
+}
+.input-text{
+  height: 100px;
+}
+.button-submit{
+  background-color: rgb(192, 0, 96);
+  color: white;
+  position: relative;
+  left: 200px;
+}
+/* fin form */
+
+/* status */
+.tabla{
+  width: 75%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.fila {
+  width: 100%;
+}
+
+.fila td, .fila th {
+  text-align: center;
+  padding: 15px;
+  border: #b2b2b2 1px solid;
+}
+
+
+.fila th {
+  padding: 10px;
+  text-align: left;
+  background-color: gray;
+  color: white;
+}
+
+/* fin status */
+
+.btnprueba{
+  background-size: 100%, 100%;
+    background-image: none;
+    height: 100px;
+    width: 100px;
+    border: none;
+  
+}
+.btnprueba:after{
+  content: ">";
+  font-size: 60px;
+  position: absolute;
+  bottom: 5px;
+  color: grey;
+  left: 300px;
+    
+}
+
+/* nav contact-stats */
+
+.btnPre,
+.btnNext {
+  background-size: 100%, 100%;
+  background-image: none;
+  height: 100px;
+  width: 100px;
+}
+
+.btnNext:after {
+  content: ">";
+  font-size: 60px;
+  position: absolute;
+  bottom: 1px;
+  left: 95%;
+  color: grey;
+}
+
+.btnPre:after {
+  content: "<";
+  font-size: 60px;
+  position: absolute;
+  bottom: 1px;
+  color: grey;
 }

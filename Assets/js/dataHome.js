@@ -171,3 +171,28 @@ let amazingEventsdata = {
       }
     ]
   };
+
+
+  let homeEvents= "";
+  const homeEventsHtml= document.getElementById("homeEvents");
+
+
+  for(let event of amazingEventsdata.events){
+    homeEvents += 
+      `<div class="card m-2" style="width: 18rem;">
+      <div class="img-card">
+        <img src="${event.image}" class="card-img-top" alt="img">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">${event.name}</h5>
+        <p class="card-text">${event.description}</p>
+        <p class="price">Price: $${event.price}</p>
+        <a href="../../Templates/cards.html" class="btn btn-mas">See more...</a>
+      </div>
+      </div>`
+      
+    }
+    
+  homeEventsHtml.innerHTML = homeEvents;
+
+  

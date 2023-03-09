@@ -93,6 +93,7 @@
 .cards{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content:center;
   margin-top: 70px;
 }
@@ -111,14 +112,18 @@
 .card-img-top{
   height: 150px;
 }
+.card-text{
+  height: 100px;
+}
 .price{
   display: inline;
 }
 .btn-mas {
   background-color: rgb(192, 0, 96);
   color: white;
+  width: 110px;
   position: relative;
-  left: 40px;
+  left: 60px;
 }
 
 /* fin cards */
@@ -178,7 +183,7 @@
 
 /* fin status */
 
-.btnprueba{
+/* .btnprueba{
   background-size: 100%, 100%;
     background-image: none;
     height: 100px;
@@ -194,7 +199,7 @@
   color: grey;
   left: 300px;
     
-}
+} */
 
 /* nav contact-stats */
 
@@ -221,4 +226,30 @@
   position: absolute;
   bottom: 1px;
   color: grey;
+}
+
+.cont-detalles{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  border: rgb(192, 0, 96) 1px solid;
+  background-color: rgb(192, 0, 96);
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 100px;
+  border-radius: 10px;
+  
+  
+}
+.img-det{
+  padding: 20px;
+
+}
+.border-rad{
+  border-radius: 15px;
+}
+.descrip-color{
+  color: rgb(255, 255, 255);
 }
